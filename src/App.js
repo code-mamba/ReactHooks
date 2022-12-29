@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import ClassCount from './components/ClassCount';
+import Counter from './components/classCount';
+import CountHooks2 from './components/HooksExamples';
+import HookCountInc from './components/UseEffect';
+import UsingEffect from './components/UseEffect';
 
+import IncreDecreCounter from './components/UseState';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Counter></Counter> */}
+     
+      {/* <IncreDecreCounter></IncreDecreCounter>
+      <CountHooks2></CountHooks2>
+      <UsingEffect></UsingEffect> */}
+      <ClassCount></ClassCount>
+      <HookCountInc></HookCountInc>
     </div>
   );
 }
