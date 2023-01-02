@@ -10,8 +10,9 @@ import HookCounter from './components/HookCounter';
 // import UsingEffect from './components/UseEffect';
 import Useeffect2 from './components/UseEffect2';
 import UseEffect3 from './components/UseEffect3';
-import UserInput from './customHookForm';
+import UserInput from './components/customHookForm';
 import FuncIncrement from './functIncrement';
+import Hello from './hello';
 import Counter from './reduceHook1';
 
 // import IncreDecreCounter from './components/UseState';
@@ -38,6 +39,7 @@ function App() {
       <FuncIncrement></FuncIncrement> */}
       <Counter></Counter>
       <UserInput></UserInput>
+      <Hello></Hello>
 
     </div>
   );
